@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+a{text-decoration:none; color:inherit;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+	
+a {}
+.h2, h2 {color: #a94442;}
+.h4, h4 {
+    font-size: 18px;
+    color: #337ab7;
+        }
+body{ background:#F3E4CF;font-family:droid Arabic Kufi, serif; font-size:13px; 
+     }
+.logo{float:right;  margin-right:0px; background:#fff; text-align:center; padding:5px;}
+.logo img{margin-left:auto; margin-right:auto;}
+.icons{float:left; margin-top:32px; }
+.icons i{margin-right:5px; background:#fff; 
+         padding:10px; 
+		 width:50px; 
+		 text-align:center;
+		 transition:all ease-in-out 0.3s;}
+.icons i:hover{background-color: #D8C2A2;
+               color: #fff;}
+#slider1{
+    border: #fff solid 7px;
+}
+.navbar-default {    background-color: #FFFFFF; border:none;}
+.navbar { margin-bottom:0px;}
+
+.menusaleh li{background:#FFF; transition:all ease-in-out 0.3s;}
+.menusaleh li:hover{background:#D8C2A2}
+.qaaa:hover img{ border:2px solid #a94442;}
+.qaaa img{padding: 5px; transition:all ease-in-out 0.3s;
+          border: 2px solid #FFF;}
+.qaaa p{font-size:13px; transition:all ease-in-out 0.3s;}
+.qaaa:hover p{ color:#a94442}
+.qaa{text-align:center; margin-top:10px; transition:all ease-in-out 0.3s;}
+.qaa:hover img{
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.qaa img{border-radius:50%; padding:5px; border:2px solid  #FFF; margin-left:auto; margin-right:auto; transition:all ease-in-out 0.6s;}
+.qaa h3{color:#F90;}
+.qaa p{font-size:13px;}
+
+
+
+.secfff{background:#fff; padding-bottom:5px; padding-top:5px; margin-top:10px; margin-bottom:10px;}
+.footerr{Background-image: linear-gradient(#F3E4CF,#FFFFFF);}
+.footern{padding-top:20px; padding-bottom:20px;  color:#F90; font-weight:bold;}
+
+
+.olbomImg{ margin-bottom:25px;
+           
+           overflow:hidden;
+		   transition:all ease-in-out 0.3s;}
+
+.olbomImg:hover{ }
+.bodycenter{Background-image: linear-gradient(#FFFEFE,#F3E4CF);}
+.kama{}
+.kama ul{    list-style: none;}
+.kama ul li{    background: rgb(243, 228, 207);
+    color:rgb(72, 9, 40);
+	transition:all ease-in-out 0.3s;
+   
+    float: right;
+    padding: 5px 20px 5px 20px;
+    margin: 5px;
+	text-align: center;
+	font-weight: bold;}
+/*.kama ul li:hover{background:rgb(255, 153, 0);
+                  color:#fff;}
+				  */
+.news{margin-top:10px; margin-bottom:10px; transition:all 0.5s ease-in-out;}
+.news img{transition:all 0.5s ease-in-out;}				  
+.news:hover img{transition:all 0.5s ease-in-out; box-shadow:#000 0px 0px 10px;}
+.newsimg{float:right; width:150px;}
+
+.newstext{ margin-right:155px;}
+.newstext h3{ font-size:18px; color: #FF9F51;}
+/**الشاشة الكبيرة**/
+@media (min-width: 1200px)
+ {
+	 .container{width:970px; padding-left:0px; padding-right:0px;
+              
+            }
+	.bodycenter{Background-image: linear-gradient(#FFFEFE,#F3E4CF);}
+ .conten{margin-right:15px;     padding-bottom: 15px;     line-height: 2;}
+ .boxslidermalty2 .a{margin:5px;}
+ 
+ .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right;
+}
+ }
+ 
+/**الشاشة المتوسطه**/
+ @media  (max-width:991px) and (min-width: 768px) 
+ { .news{margin-top:100px;}
+ }
+ /**الصغيرة**/
+@media (min-width: 768px)
+{
+	.textearaya{margin: 0px; height: 150px; width: 482px;}
+.navbar-nav>li {
+    float: right;
+}
+
+
+.navbar-left {
+    float: left;
+    /* text-align: right; */
+    direction: rtl;
+    padding-left: 0px;
+}
+}
+@media (max-width: 768px)
+{.news{margin-top:100px;}
